@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,footer{
+    width: 100%;
+    min-width: 362px;/*նշված արժեքից եթե փոքրացնենքել ինքը էլ չի փոքրանա*/
+    height: 80px;
+    margin: 10px 0;/*վերև ներգև-10, աջ ձախ-0*/
+    padding-bottom: 5px;/*միայն տակի մասնա*/ 
+    background: #BB11A4;
+    color:white;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    
+}
+main{
+    text-align: center;
+    background: #fadef6;
+    margin-top: 7px;/*marginների կոնֆլիկտ վերևից 10 տակից 7 վերցրեց 10*/
+}
+h1{ margin-left: 10px; /*միայն ձախ կողմից*/
+    line-height: 80px;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none; /*տակի գցերը հանել*/
+    color:white;
+    font-size: 20px;
+    margin: 10px;/*բոլոր կողմերից*/
+}
+a:hover{
+    color:rgb(72, 24, 71);
+    
+}
+section{ 
+    width: 305px;
+    height: 374px;
+    overflow: hidden; /*իր սահմաններից ինչը դուրս էկելա ցույց չտա*/
+    margin: 5px;                  /*box model hertakanutyamb*/
+    border:1px dotted #BB11A4;
+    padding: 2px;
+   
+    
+}
+.image, .text{
+    
+    border:5px solid #BB11A4;
+}
+.image:hover{
+    cursor: pointer;
+    transform: scale(1.5);/*բոլոր կողմերից պատկերը մեծանումա 1,5-ով*/
+    
+}
+.text{
+   width: 300px;
+}
+.price{display: inline;/*block -ից inline*/
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.priceam{
+    display: inline;
+}
+span{
+    display: block;/*inline-ից block*/
+}
+section{
+    display: inline-block;/*որպեսզի և պահի չափերը և իրար կողք լինի*/
+}
+footer{
+    justify-content: center;
+    
+}
