@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-header,footer{
+header{
     width: 100%;
     min-width: 362px;/*նշված արժեքից եթե փոքրացնենքել ինքը էլ չի փոքրանա*/
     height: 80px;
